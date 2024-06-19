@@ -52,3 +52,14 @@ main{
 .bg-gray{
     background-color: rgb(229, 229, 229);
 }
+
+.container-icon {
+    width: 100%;
+    height: calc(100vh - 200px);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;  
+}
