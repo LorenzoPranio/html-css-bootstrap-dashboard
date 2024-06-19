@@ -8,16 +8,67 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Boostrap Dasboard</title>
 </head>
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <div class="content">
-        <div class="row">
-            <div class="col-12"></div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form>
+                <div class="mb-3">
+                  <label for="Inputname" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="Inputname">
+                </div>
+            </form>
         </div>
+        <div class="col-12 col-md-6">
+            <form>
+                <div class="mb-3">
+                  <label for="Inputsurname" class="form-label">Cognome</label>
+                  <input type="text" class="form-control" id="Inputsurname">
+                </div>
+            </form>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="mb-3">
+                Email
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">@</span>
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGroup1">
+                </div>
+            </div>  
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="mb-3">
+                <label for="Inputpassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="Inputpassword">
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="mb-3">
+                Email
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">@</span>
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGroup1">
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="mb-3">
+                <label for="Inputpassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="Inputpassword">
+              </div>
+        </div>
+        <div class="col-12"></div>
+        <div class="col-12 col-md-6"></div>
+        <div class="col-12 col-md-4"></div>
+        <div class="col-12 col-md-2"></div>
     </div>
   </div>
 </div>

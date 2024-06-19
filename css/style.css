@@ -118,4 +118,8 @@ main{
     .main-content{
         width: calc(100vw - 125px);
     }
+
+    .offcanvas{
+        max-width: 50vw;
+    }
 }
