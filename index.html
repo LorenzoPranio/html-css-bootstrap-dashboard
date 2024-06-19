@@ -65,10 +65,48 @@
                 <input type="password" class="form-control" id="Inputpassword">
               </div>
         </div>
-        <div class="col-12"></div>
-        <div class="col-12 col-md-6"></div>
-        <div class="col-12 col-md-4"></div>
-        <div class="col-12 col-md-2"></div>
+        <div class="col-12">
+            <form>
+                <div class="mb-3">
+                  <label for="Inputaddress" class="form-label">Indirizzo</label>
+                  <input type="text" class="form-control" id="Inputaddress">
+                </div>
+            </form>
+        </div>
+        <div class="col-12 col-md-6">
+            <form>
+                <div class="mb-3">
+                  <label for="Inputcity" class="form-label">Città</label>
+                  <input type="text" class="form-control" id="Inputcity">
+                </div>
+            </form>
+        </div>
+        <div class="col-12 col-md-4">
+            <label for="Inputstate" class="form-label">Stato</label>
+            <select class="form-select" aria-label="Default select example">
+                <option value="1">Scegli...</option>
+              </select>
+        </div>
+        <div class="col-12 col-md-2">
+            <form>
+                <div class="mb-3">
+                  <label for="Inputcap" class="form-label">CAP</label>
+                  <input type="text" class="form-control" id="Inputcap">
+                </div>
+            </form>
+        </div>
+        <div class="col-12">
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Foto</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Salva</button>
+            <button type="submit" class="btn text-bg-yellow">Svuota</button>   
+        </div>
     </div>
   </div>
 </div>
