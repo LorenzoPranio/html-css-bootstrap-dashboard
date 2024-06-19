@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Boostrap Dasboard</title>
 </head>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
 <body>
     <header>
         <!--NAVBAR-->   
@@ -31,22 +40,22 @@
         <div class="side-bar">
             <div class="container-icon white-color">
                 <div class="d-flex flex-column mt-4 p-2">
-                    <div class="mb-3">
+                    <div class="mb-3 side">
                         <i class="fa-solid fa-house "></i>
                         <span class="d-none d-lg-inline fs-6">Home</span>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 side">
                         <i class="fa-solid fa-chart-simple"></i>
                         <span class="d-none d-lg-inline fs-6">Stats</span>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 side">
                         <i class="fa-solid fa-signal"></i> 
                         <span class="d-none d-lg-inline fs-6">Signals</span>
                     </div>
                 </div>
             </div>
             <div class="container-icon down white-color">
-                <div class="mb-3">
+                <div class="mb-3 side">
                     <i class="fa-solid fa-gear"></i>
                     <span class="d-none d-lg-inline fs-6">Admin</span>
                 </div>
@@ -61,7 +70,7 @@
                             <div class="content-small">
                                 <div class="white-color">
                                     <h6 class="my-4 d-inline-block">Nuovo Studente</h6>
-                                    <i class="fa-solid fa-plus plus borded-cross ms-2"></i>
+                                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus plus borded-cross"></i></button>
                                 </div>                        
                             </div>
                         </div>

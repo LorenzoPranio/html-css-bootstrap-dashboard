@@ -57,6 +57,7 @@ main{
     border: 1px solid white;
     border-radius: 5px;
     padding: 8px;
+    color: white;
 }
 
 .text-bg-blue{
@@ -97,6 +98,12 @@ main{
 
 .checkbox-text{
     font-size: 12px;
+}
+
+.side:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 992px){
