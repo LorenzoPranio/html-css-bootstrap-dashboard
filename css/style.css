@@ -19,12 +19,10 @@ main{
     width: 100px;
     background-image: url(/img/sidebar-bg.png);
     background-color: rgb(5, 30, 52);
-    border: 1px solid black;
 }
 
 .main-content{
     width: calc(100vw - 100px);
-    border: 1px solid black;
     overflow-y: scroll;
 }
 
@@ -94,4 +92,18 @@ main{
     padding: 8px 6px;
     color: white;
     margin-right: 5px;
+}
+
+.checkbox-text{
+    font-size: 12px;
+}
+
+@media screen and (min-width: 992px){
+    .side-bar{
+        width: 125px;
+    }
+
+    .main-content{
+        width: calc(100vw - 125px);
+    }
 }
